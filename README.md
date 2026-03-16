@@ -32,7 +32,7 @@ See [hugin-v0](https://github.com/michelve/hugin-v0) for details.
 
 ### hugin-cowork (Cowork)
 
-Cowork-compatible port with 20 portable skills — Figma-to-code, accessibility, React, Tailwind, Prisma, testing, and more. No hooks, agents, or CLI dependencies.
+Cowork-compatible port with 22 skills, 13 agents, 8 hooks, 6 MCP servers (HTTP/SSE/stdio). Figma-to-code, accessibility, React, Tailwind, Prisma, testing, and more.
 
 See [hugin-cowork](https://github.com/michelve/hugin-cowork) for details.
 
