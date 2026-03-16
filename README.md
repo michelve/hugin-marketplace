@@ -1,6 +1,6 @@
 # hugin-marketplace
 
-Marketplace catalog for [hugin-v0](https://github.com/michelve/hugin-v0) — a Claude Code plugin that helps product designers and engineers ship design-to-production React 19 apps.
+Marketplace catalog for the Hugin plugin family — design-to-production React 19 tools for Claude Code and Cowork.
 
 ## Installation
 
@@ -10,30 +10,31 @@ Marketplace catalog for [hugin-v0](https://github.com/michelve/hugin-v0) — a C
 /plugin marketplace add michelve/hugin-marketplace
 ```
 
-### 2. Install the plugin
+### 2. Install a plugin
 
 ```
 /plugin install hugin-v0@hugin-marketplace
 ```
 
-### 3. Verify
+or
 
 ```
-/plugin
+/plugin install hugin-cowork@hugin-marketplace
 ```
 
-Go to the **Installed** tab to confirm `hugin-v0` is loaded.
+## Available plugins
 
-## What's in hugin-v0?
+### hugin-v0 (Claude Code CLI)
 
-- **23 skills** — Figma-to-code, accessibility audits, code reviews, architecture guardrails, and more
-- **13 agents** — principal-engineer, auto-error-resolver, documentation-architect, and others
-- **8 event hooks** — commitlint, anti-pattern guards, quality gates, automatic code review
-- **7 MCP servers** — context7, playwright, figma, figma-console, sequential-thinking, miro, shadcn
-- **4 output styles** — architecture-review, code-review, refactoring, documentation
-- **1 LSP server** — TypeScript language server for real-time diagnostics
+Full-featured plugin with 23 skills, 13 agents, 8 hooks, 7 MCP servers, 4 output styles, and 1 LSP server. Requires Claude Code CLI.
 
-See the [hugin-v0 README](https://github.com/michelve/hugin-v0#readme) for full details.
+See [hugin-v0](https://github.com/michelve/hugin-v0) for details.
+
+### hugin-cowork (Cowork)
+
+Cowork-compatible port with 20 portable skills — Figma-to-code, accessibility, React, Tailwind, Prisma, testing, and more. No hooks, agents, or CLI dependencies.
+
+See [hugin-cowork](https://github.com/michelve/hugin-cowork) for details.
 
 ## License
 
