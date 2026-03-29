@@ -26,13 +26,13 @@ or
 
 ### hugin-v0 (Claude Code CLI)
 
-Full-featured plugin with 23 skills, 13 agents, 8 hooks, 7 MCP servers, 4 output styles, and 1 LSP server. Requires Claude Code CLI.
+Full-featured plugin with 30 skills, 13 agents, 1 command, 4 output styles, and hooks. Figma-to-code, automated code reviews, architecture guardrails, accessibility enforcement, DSAI design system, Playwright testing, Prisma, and more. Requires Claude Code CLI.
 
 See [hugin-v0](https://github.com/michelve/hugin-v0) for details.
 
 ### hugin-cowork (Cowork)
 
-Cowork-compatible port with 22 skills, 13 agents, 8 hooks, 6 MCP servers (HTTP/SSE/stdio). Figma-to-code, accessibility, React, Tailwind, Prisma, testing, and more.
+Cowork-compatible port with 22 skills, 13 agents, 8 hooks, 6 MCP servers (HTTP/SSE/stdio). Figma-to-code, accessibility, React, DSAI, Prisma, testing, and more.
 
 See [hugin-cowork](https://github.com/michelve/hugin-cowork) for details.
 
