@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/michelve/hugin-v0/main/schemas/marketplace.schema.json",
   "name": "hugin-marketplace",
   "description": "Marketplace catalog for hugin-v0 — design-to-production React 19 apps with Claude Code.",
   "owner": {
@@ -10,14 +9,14 @@
     {
       "name": "hugin-v0",
       "description": "Ship design-to-production React 19 apps with Claude Code — Figma-to-code translation, automated code reviews, architecture guardrails, and accessibility enforcement for designers and engineers.",
-      "version": "1.10.0",
+      "version": "1.10.1",
       "author": {
         "name": "Michel Velis",
         "email": "mvelis90@gmail.com"
       },
       "source": {
-        "source": "url",
-        "url": "https://github.com/michelve/hugin-v0.git"
+        "source": "github",
+        "repo": "michelve/hugin-v0"
       },
       "category": "development",
       "homepage": "https://github.com/michelve/hugin-v0"
@@ -31,8 +30,8 @@
         "email": "mvelis90@gmail.com"
       },
       "source": {
-        "source": "url",
-        "url": "https://github.com/michelve/hugin-cowork.git"
+        "source": "github",
+        "repo": "michelve/hugin-cowork"
       },
       "category": "development",
       "homepage": "https://github.com/michelve/hugin-cowork"
