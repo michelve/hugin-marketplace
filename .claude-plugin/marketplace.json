@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/michelve/hugin-v0/main/schemas/marketplace.schema.json",
   "name": "hugin-marketplace",
   "description": "Marketplace catalog for hugin-v0 — design-to-production React 19 apps with Claude Code.",
   "owner": {
@@ -15,8 +16,8 @@
         "email": "mvelis90@gmail.com"
       },
       "source": {
-        "source": "github",
-        "repo": "michelve/hugin-v0"
+        "source": "url",
+        "url": "https://github.com/michelve/hugin-v0.git"
       },
       "category": "development",
       "homepage": "https://github.com/michelve/hugin-v0"
@@ -30,8 +31,8 @@
         "email": "mvelis90@gmail.com"
       },
       "source": {
-        "source": "github",
-        "repo": "michelve/hugin-cowork"
+        "source": "url",
+        "url": "https://github.com/michelve/hugin-cowork.git"
       },
       "category": "development",
       "homepage": "https://github.com/michelve/hugin-cowork"
